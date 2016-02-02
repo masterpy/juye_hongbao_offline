@@ -11,7 +11,7 @@ if __name__ == '__main__':
 	redpack_sender.setParameter("total_num","1")
 	redpack_sender.setParameter("wishing","新年大吉！")
 	redpack_sender.setParameter("client_ip","123.57.1.71")
-	redpack_sender.setParameter("act_name","第"+(str)(current_issue.id).zfill(5) +"期 抢10元红包活动")
+	redpack_sender.setParameter("act_name","抢10元红包活动")
 	redpack_sender.setParameter("remark","发红包啦")
 	send_redpack = redpack_sender.send_pack()
 	print send_redpack
