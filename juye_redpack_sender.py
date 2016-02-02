@@ -36,7 +36,7 @@ def redpack_sender(db):
 		redpack_sender = Redpack_pub()
 		redpack_sender.setParameter("re_openid",openid)
 		redpack_sender.setParameter("send_name","桔叶商城")
-		redpack_sender.setParameter("total_amount","100")
+		redpack_sender.setParameter("total_amount","1000")
 		redpack_sender.setParameter("total_num","1")
 		redpack_sender.setParameter("wishing","新年大吉！")
 		redpack_sender.setParameter("client_ip","123.57.1.71")
